@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <OutDir>..\..\Bin</OutDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FleetManager.Domain\FleetManager.Domain.csproj" />
+    <ProjectReference Include="..\FleetManager.Infrastructure\FleetManager.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
