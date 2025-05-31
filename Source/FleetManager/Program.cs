@@ -4,12 +4,13 @@ namespace FleetManager;
 
 public static class Program
 {
-  public static void Main(string[] args)
+  public static void Main()
   {
-    var builder = WebApplication.CreateBuilder(args);
-    var app = builder.Build();
+    var app = new Startup().Build();
 
     app.MapGet("/", () => "Hello World!");
+    app.UseSwagger();
+    app.UseSwaggerUI();
 
     app.Run();
   }
