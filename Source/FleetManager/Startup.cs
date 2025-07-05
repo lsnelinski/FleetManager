@@ -23,11 +23,7 @@ public class Startup
           Version = "v1",
           Title = "FleetManager",
           Description = "A modern, cross-platform web-based fleet management system.",
-          Contact = new OpenApiContact
-          {
-            Email = "lsnelinski@icloud.com",
-            Name = "L. Snelinski"
-          }
+          Contact = new OpenApiContact { Email = "lsnelinski@icloud.com", Name = "L. Snelinski" }
         });
 
       var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";

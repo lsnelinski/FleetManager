@@ -10,4 +10,8 @@
     <ProjectReference Include="..\FleetManager.Domain\FleetManager.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.3" />
+  </ItemGroup>
+
 </Project>
